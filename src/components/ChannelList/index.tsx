@@ -19,7 +19,17 @@ const ChannelList: React.FC = () => {
            <ChannelButton channelName="Server pro #5" />
            <ChannelButton channelName="Server pro #6" />
            <ChannelButton channelName="Server pro #7" />
-           <ChannelButton channelName="Server pro #8" /> 
+           <ChannelButton channelName="Server pro #8" />
+           <ChannelButton channelName="Server pro #9" /> 
+           <ChannelButton channelName="Server pro #10" /> 
+           <ChannelButton channelName="Server pro #11" /> 
+           <ChannelButton channelName="Server pro #12" /> 
+           <ChannelButton channelName="Server pro #13" /> 
+           <ChannelButton channelName="Server pro #14" /> 
+           <ChannelButton channelName="Server pro #15" /> 
+           <ChannelButton channelName="Server pro #16" /> 
+           <ChannelButton channelName="Server pro #17" />
+           <ChannelButton channelName="Server pro #18" />   
         </Container>
 
     )
