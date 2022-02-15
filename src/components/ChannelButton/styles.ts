@@ -15,7 +15,7 @@ export const Container = styled.div`
 
     background-color: transparent;
 
-    transition: background-color .2s;
+    transition: background-color 0.2s;
 
     > div {
         display: flex;
@@ -27,12 +27,20 @@ export const Container = styled.div`
         color: var(--senary);
     }
 
-    &.hover, &.active {
-        background-color: ver(--quinary);
+    > div svg {
+        display: none;
+    }
+
+    &:hover, &.active {
+        background-color: var(--quinary);
 
         > div span {
             color: var(--white);
         }
+
+        > div svg {
+        display: flex;
+    }
     }
 `;
 
@@ -50,7 +58,7 @@ export const InviteIcon = styled(PersonAdd)`
     color: var(--symbol);
     cursor: pointer;
 
-    transition: color .2s;
+    transition: color 0.2s;
 
     &:hover{
         color: var(--white);
@@ -66,7 +74,7 @@ export const SettingsIcon = styled(Settings)`
     color: var(--symbol);
     cursor: pointer;
 
-    transition: color .2s;
+    transition: color 0.2s;
 
     &:hover{
         color: var(--white);
