@@ -2,7 +2,7 @@ import React from 'react';
 
 import { Container, Category, AddCategoryIcon } from './styles';
 
-import ChannelButton from '../ChannelButton';
+import ChannelButton from './ChannelButton';
 
 const ChannelList: React.FC = () => {
     return (

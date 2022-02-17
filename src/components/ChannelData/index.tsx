@@ -1,6 +1,6 @@
 import React, {useRef, useEffect } from 'react';
 
-import ChannelMessage, { Mention } from '../ChannelMessage';
+import ChannelMessage, { Mention } from './ChannelMessage';
 
 import { Container, Messages, InputWrapper, Input, InputIcon } from './styles';
 
@@ -41,6 +41,7 @@ const ChannelData: React.FC = () => {
                     isBot
                 />
             </Messages>
+            
             <InputWrapper>
                 <Input type="text" placeholder="Conversarem #chat-livre" />
                 <InputIcon />

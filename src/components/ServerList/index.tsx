@@ -2,7 +2,7 @@ import React from 'react';
 
 import { Container, Separator } from './styles';
 
-import ServerButton from '../ServerButton';
+import ServerButton from './ServerButton';
 
 const ServerList: React.FC = () => {
     return(
@@ -14,13 +14,13 @@ const ServerList: React.FC = () => {
             <ServerButton mentions={3} />
             <ServerButton />
             <ServerButton hasNotification />
-            <ServerButton />
-            <ServerButton hasNotification />
-            <ServerButton />
-            <ServerButton hasNotification />
-            <ServerButton />
-            <ServerButton hasNotification />
             <ServerButton mentions={9} />
+            <ServerButton />
+            <ServerButton hasNotification />
+            <ServerButton />
+            <ServerButton hasNotification />
+            <ServerButton />
+            <ServerButton hasNotification />
             <ServerButton mentions={2} />
             <ServerButton mentions={56} />
             <ServerButton mentions={12} />

@@ -3,8 +3,10 @@ import { ExpandMore } from "styled-icons/material";
 
 export const Container = styled.div`
 
+    grid-area: SN;
+
     display: flex;
-    align-items: center;
+    align-items: center; 
     justify-content: space-between;
 
     padding: 0 11px 0 16px;
