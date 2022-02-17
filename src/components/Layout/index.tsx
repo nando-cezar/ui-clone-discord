@@ -12,7 +12,7 @@ import ChannelData from '../ChannelData';
 
 
 const Layout: React.FC = () => {
-    return (
+    return ( 
         <Grid>
             <ServerList />
             <ServerName />
